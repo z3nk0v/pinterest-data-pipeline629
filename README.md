@@ -131,14 +131,36 @@ To replicate the Pinterest's experimental data pipeline we will need to build ou
 # 6.Batch Processing: Databricks
 You will set up your Databricks account and learn how to read data from AWS into Databricks.
 
+    Here i set up my databricks account.
+    After i mount my s3 bucket to Databricks. This can be seen how in the Jupyter Notebook.
 
 # 7.Batch Processing: Spark on Databricks
 Learn how to perform data cleaning and computations using Spark on Databricks.
 
+    Here we clean our three tables: User, Geo and Pin
+
+    Querying the Data: These were the queries:
+    Find the most popular category in each country
+    
+    Find the most popular category by year
+    
+    Find the user with the most followers in each country
+    
+    Find the most popular category for different age groups
+    
+    Find the median follower count for different age groups
+    
+    Find how many users have joined each year
+    
+    Find the median follower count of users based on their joining year
+    
+    
+    Find the median follower count of users based on their joining year and age
 
 # 8.Batch Processing: AWS MWAA
 
 
+    
 
 # 9.Stream Processing: AWS Kinesis
 Send streaming data to Kinesis and read this data in Databricks
