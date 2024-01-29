@@ -56,9 +56,9 @@ def deserialize_json(df, schema):
     return df.withColumn("cast_data", from_json(col("data").cast("string"), schema)).select("cast_data.*")
 
 # Read data from Kinesis streams
-kinesisStreamName_pin = "streaming-0e2b04098249-pin"
-kinesisStreamName_geo = "streaming-0e2b04098249-geo"
-kinesisStreamName_user = "streaming-0e2b04098249-user"
+kinesisStreamName_pin = "streaming-0ea7b76ff169-pin"
+kinesisStreamName_geo = "streaming-0ea7b76ff169-geo"
+kinesisStreamName_user = "streaming-0ea7b76ff169-user"
 
 regionName = "us-east-1"
 
